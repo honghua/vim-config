@@ -105,8 +105,8 @@ set t_Co=16
 set background=dark
 " The silent invocation means that if Solarized isn't detected, Vim won't error
 " out on startup.
-" let g:solarized_termcolors=256 "this is what fixed it for me
-" :silent! colorscheme solarized
+  let g:solarized_termcolors=256 "this is what fixed it for me
+ :silent! colorscheme solarized
 " TODO(hhy): Alternative colorscheme to consider  
   ":silent! colorscheme elflord
   ":silent! colorscheme dracula
